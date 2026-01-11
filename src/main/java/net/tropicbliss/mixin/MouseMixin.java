@@ -20,7 +20,7 @@ public class MouseMixin {
     private Object multiplySensitivity(SimpleOption<?> instance) {
         Object value = instance.getValue();
         if (value instanceof Double && instance == this.client.options.getMouseSensitivity()) {
-            return ((Double) value) * OptionsManager.sensitivityScalingOption.getValue();
+            return ((Double) value) * OptionsManager.sensitivityScalingOption.getValue() * 2;
         }
         return value;
     }
