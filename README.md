@@ -1,5 +1,7 @@
 # Mouse Sensitivity Multiplier
 
+**I have pretty much lost motivation maintaining this mod after the changes required to support 26.1, so I'm just going to leave it here for now. Do whatever you want with it.**
+
 A lightweight Minecraft mod that applies a customizable multiplier to your existing mouse sensitivity settings.
 
 ## Overview
